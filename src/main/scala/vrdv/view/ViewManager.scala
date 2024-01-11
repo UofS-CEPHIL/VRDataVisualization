@@ -5,7 +5,7 @@ import facade.Stats
 import org.scalajs.dom
 import org.scalajs.dom.raw.Element
 import org.scalajs.dom.{Event, window}
-import org.scalajs.threejs.{PerspectiveCamera, Renderer}
+import fmgp.threejs.{PerspectiveCamera, Renderer}
 import util.Log
 import vrdv.input.mouse
 import vrdv.model.RenderRequirements

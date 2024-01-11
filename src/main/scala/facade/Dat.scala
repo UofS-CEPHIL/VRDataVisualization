@@ -1,6 +1,6 @@
 package facade
 
-import org.scalajs.threejs.{Camera, Object3D, Renderer}
+import fmgp.threejs.{Camera, Object3D, Renderer}
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSGlobal

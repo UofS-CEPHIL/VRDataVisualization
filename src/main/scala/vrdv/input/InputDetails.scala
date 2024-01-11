@@ -1,7 +1,7 @@
 package vrdv.input
 
 import facade.IFThree.RaycasterParametersExt
-import org.scalajs.threejs._
+import fmgp.threejs._
 import vrdv.input.oculus.OculusController
 import vrdv.obj3D.plots.{AxisID, NOAxis}
 

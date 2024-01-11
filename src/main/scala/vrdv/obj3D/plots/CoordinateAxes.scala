@@ -1,8 +1,8 @@
 package vrdv.obj3D.plots
 
 import facade.IFThree.{AxesHelper, GridHelperExt}
-import org.scalajs.threejs.{LineBasicMaterial, Mesh}
-import org.scalajs.{threejs ⇒ THREE}
+import fmgp.threejs.{LineBasicMaterial, Mesh}
+import fmgp.{threejs ⇒ THREE}
 import util.Log
 import vrdv.obj3D.Text
 import vrdv.obj3D.displays.PlaneDisplay

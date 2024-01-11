@@ -1,7 +1,7 @@
 package vrdv.model
 
 import facade.IFThree.SceneUtils2
-import org.scalajs.threejs._
+import fmgp.threejs._
 import util.Log
 import vrdv.input.{Action, Result, mouse}
 import vrdv.{input, obj3D}

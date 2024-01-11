@@ -1,6 +1,6 @@
 package vrdv
 
-import org.scalajs.threejs.Object3D
+import fmgp.threejs.Object3D
 import util.Log
 
 import scala.scalajs.js

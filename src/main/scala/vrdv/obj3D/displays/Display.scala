@@ -1,7 +1,7 @@
 package vrdv.obj3D.displays
 
 import org.scalajs.dom.document
-import org.scalajs.threejs.{Mesh, MeshBasicMaterial}
+import fmgp.threejs.{Mesh, MeshBasicMaterial}
 
 /**
   * Created by Dorian Thiessen on 2018-05-09.

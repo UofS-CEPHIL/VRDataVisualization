@@ -1,6 +1,6 @@
 package vrdv.obj3D.displays
 
-import org.scalajs.threejs._
+import fmgp.threejs._
 
 /**
   * A finite plane whose surface is an html canvas.

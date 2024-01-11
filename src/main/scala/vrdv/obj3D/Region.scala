@@ -1,6 +1,6 @@
 package vrdv.obj3D
 
-import org.scalajs.threejs.Object3D
+import fmgp.threejs.Object3D
 import vrdv.obj3D
 import vrdv.obj3D.plots._
 

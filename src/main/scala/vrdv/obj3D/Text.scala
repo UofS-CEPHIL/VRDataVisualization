@@ -1,7 +1,7 @@
 package vrdv.obj3D
 
 import facade.IFThree.{Font, ShapeGeometryExt}
-import org.scalajs.threejs._
+import fmgp.threejs._
 
 /**
   * Created by Dorian Thiessen on 2018-07-18.

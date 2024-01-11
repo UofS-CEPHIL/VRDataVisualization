@@ -1,14 +1,15 @@
 name := "VRDataVisualization"
 version := "0.2"
-scalaVersion := "2.12.6"
+scalaVersion := "2.13.2"
 
 
-resolvers += sbt.Resolver.bintrayRepo("scalajs-facades", "scalajs-facades-releases") //add resolver
+resolvers += sbt.Resolver.bintrayRepo("scalajs-facades", "scalajs-facades-releases") //add resolve
+
 libraryDependencies ++= Seq(
-  "org.scala-js" %%% "scalajs-dom" % "0.9.5",
-  "be.doeraene" %%% "scalajs-jquery" % "0.9.3",
-  "com.lihaoyi" %%% "utest" % "0.6.0" % "test",
-  "org.scalajs" %%% "threejs-facade" % "0.0.88-0.1.9"
+  "org.scala-js" %%% "scalajs-dom" % "0.9.8",
+  "be.doeraene" %%% "scalajs-jquery" % "0.9.6",
+  "com.lihaoyi" %%% "utest" % "0.8.2" % "test",
+  //"io.github.dcascaval" % "scala-threejs-facades_sjs1_3" % "0.131.0"
 )
 testFrameworks += new TestFramework("utest.runner.Framework")
 
@@ -16,10 +17,11 @@ testFrameworks += new TestFramework("utest.runner.Framework")
 enablePlugins(ScalaJSPlugin)
 //scalaJSModuleKind := ModuleKind.CommonJSModule
 scalaJSUseMainModuleInitializer := false // Explicitly called from script in index.html
-scalacOptions += "-P:scalajs:sjsDefinedByDefault"
-skip in packageJSDependencies := false
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+//scalacOptions += "-P:scalajs:sjsDefinedByDefault"
+//skip in packageJSDependencies := false
+libraryDependencies += "app.fmgp" % "scala-threejs_sjs1.0-RC2_2.13" % "0.1-M1"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.9"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.9" % "test"
 
 // sbt ghpagesPushSite
 enablePlugins(GhpagesPlugin)
@@ -44,5 +46,5 @@ mappings in makeSite ++= Seq(
   file(s"${Paths.www}/js/lib/papaparse.min.js") -> "js/lib/papaparse.min.js",
   file(s"${Paths.www}/js/lib/datguivr.js") -> "js/lib/datguivr.js",
   file(s"${Paths.www}/js/lib/webvr-polyfill.min.js") -> "js/lib/webvr-polyfill.min.js",
-  file("target/scala-2.12/vrdatavisualization-opt.js") -> "js/vrdatavisualization-opt.js"
+  file("target/scala-2.13/vrdatavisualization-opt.js") -> "js/vrdatavisualization-opt.js"
 )

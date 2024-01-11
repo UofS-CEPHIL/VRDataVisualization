@@ -1,7 +1,7 @@
 package vrdv.model
 
 import facade.IFThree.IntersectionExt
-import org.scalajs.threejs.{Camera, Intersection, Scene, Vector3}
+import fmgp.threejs.{Camera, Intersection, Scene, Vector3}
 import resources.{Data, Res}
 import util.Log
 import vrdv.input.{Action, InputDetails, Interactions}

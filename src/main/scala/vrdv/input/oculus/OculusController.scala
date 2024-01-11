@@ -3,7 +3,7 @@ package vrdv.input.oculus
 import facade.Dat
 import facade.IFThree.{AxesChangedEvent, ColorExt, VRController}
 import org.scalajs.dom.raw.Event
-import org.scalajs.threejs.{BoxGeometry, Color, CylinderGeometry, Matrix4, Mesh, MeshBasicMaterial, Object3D, Vector3}
+import fmgp.threejs.{BoxGeometry, Color, CylinderGeometry, Matrix4, Mesh, MeshBasicMaterial, Object3D, Vector3}
 import util.Log
 import vrdv.input
 import vrdv.input._

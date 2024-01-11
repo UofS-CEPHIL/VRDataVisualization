@@ -1,7 +1,7 @@
 package vrdv.obj3D.displays
 
 import org.scalajs.dom.document
-import org.scalajs.threejs._
+import fmgp.threejs._
 import util.Log
 import vrdv.input.InputDetails
 import vrdv.model.Plotter

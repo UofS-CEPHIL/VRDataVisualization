@@ -1,7 +1,7 @@
 package vrdv.obj3D
 
-import org.scalajs.threejs
-import org.scalajs.threejs.Color
+import fmgp.threejs
+import fmgp.threejs.Color
 
 /**
   * Created by Dorian Thiessen on 2018-04-05.

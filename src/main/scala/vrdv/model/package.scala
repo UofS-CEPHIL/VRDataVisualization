@@ -1,7 +1,7 @@
 package vrdv
 
 import facade.IFThree.{GridHelperExt, Group, VRController, VRControllerManager}
-import org.scalajs.threejs._
+import fmgp.threejs._
 import util.Log
 
 /**

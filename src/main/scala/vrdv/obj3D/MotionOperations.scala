@@ -1,6 +1,6 @@
 package vrdv.obj3D
 
-import org.scalajs.threejs.{Matrix4, Object3D, Vector3}
+import fmgp.threejs.{Matrix4, Object3D, Vector3}
 
 /**
   * Created by Dorian Thiessen on 2018-07-30.

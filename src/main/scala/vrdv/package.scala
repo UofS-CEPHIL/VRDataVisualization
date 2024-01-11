@@ -2,7 +2,7 @@ import facade.Dat
 import facade.IFThree.{Font, FontLoader, SomeEvent, VRController}
 import org.scalajs.dom
 import org.scalajs.dom.MouseEvent
-import org.scalajs.threejs.Renderer
+import fmgp.threejs.Renderer
 import resources.{FileAsText, Res}
 import util.Log
 import vrdv.input.{Connect, mouse, oculus}

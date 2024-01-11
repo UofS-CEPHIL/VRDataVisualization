@@ -1,7 +1,7 @@
 package vrdv
 
 import facade.IFThree.VRController
-import org.scalajs.threejs.{Object3D, Vector3}
+import fmgp.threejs.{Object3D, Vector3}
 
 /**
   * Created by Dorian Thiessen on 2018-07-28.

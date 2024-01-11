@@ -1,7 +1,7 @@
 package vrdv.obj3D.plots
 
 import org.scalajs.dom
-import org.scalajs.threejs._
+import fmgp.threejs._
 
 import scala.scalajs.js
 import scala.scalajs.js.typedarray.Float32Array

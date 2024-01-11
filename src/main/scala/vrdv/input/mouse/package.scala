@@ -2,7 +2,7 @@ package vrdv.input
 
 import org.scalajs.dom.raw.MouseEvent
 import org.scalajs.dom.window
-import org.scalajs.threejs._
+import fmgp.threejs._
 import vrdv.model.PlotterModelManager
 
 /**

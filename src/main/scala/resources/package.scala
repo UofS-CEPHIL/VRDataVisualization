@@ -1,4 +1,4 @@
-import org.scalajs.{threejs => THREE}
+import fmgp.{threejs => THREE}
 import scala.concurrent.{Future, Promise}
 import scala.scalajs.js
 import scala.util.Try

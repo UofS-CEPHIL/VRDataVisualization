@@ -1,7 +1,7 @@
 package vrdv.input
 
 import facade.IFThree.IntersectionExt
-import org.scalajs.threejs.Intersection
+import fmgp.threejs.Intersection
 import vrdv.obj3D.plots.{Plot, PointOperations}
 
 /**

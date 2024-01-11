@@ -1,7 +1,7 @@
 package vrdv.obj3D
 
 import facade.IFThree
-import org.scalajs.threejs
+import fmgp.threejs
 
 import scala.scalajs.js
 import scala.scalajs.js.typedarray.Float32Array
